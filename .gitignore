@@ -1,0 +1,59 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+#  React ignores dependencies
+src/ts/node_modules
+src/ts/.pnp
+src/ts.pnp.js
+
+# testing
+src/ts/coverage
+
+# production
+src/ts/build
+
+# misc
+src/ts.DS_Store
+src/ts.env.local
+src/ts.env.development.local
+src/ts.env.test.local
+src/ts.env.production.local
+
+src/tsnpm-debug.log*
+src/tsyarn-debug.log*
+src/tsyarn-error.log*
