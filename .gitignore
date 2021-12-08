@@ -36,7 +36,9 @@ out/
 ### VS Code ###
 .vscode/
 
+
 #  React ignores dependencies
+src/main/resources/static/
 src/ts/node_modules
 src/ts/.pnp
 src/ts.pnp.js

@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  postgres-db:
+    container_name: poker-hands
+    image: "postgres" # use latest official postgres version
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
